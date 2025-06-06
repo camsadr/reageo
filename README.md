@@ -119,7 +119,7 @@ Para executar o protótipo do ReaGeo, siga os passos abaixo:
 
 1.  **Clone ou Baixe o Projeto:**
     * Se você estiver usando Git, clone o repositório:
-        `git clone [LINK_DO_SEU_REPOSITORIO_AQUI]`
+        `git clone https://github.com/camsadr/reageo`
     * Navegue até o diretório do projeto: `cd reageo_mvp`
     * Caso contrário, baixe e descompacte o arquivo `.zip` do projeto em uma pasta de sua preferência.
 
