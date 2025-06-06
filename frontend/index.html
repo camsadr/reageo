@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReaGeo - Probabilidade de Eventos Extremos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ReaGeo</h1>
+        <p>Informações claras sobre a probabilidade de eventos extremos por região.</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Mapa Principal</a></li>
+                <li><a href="prevencao.html">Como Agir</a></li>
+                <li><a href="esg.html">Compromissos ESG</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="map-container">
+            <h2>Mapa de Probabilidade (Dados Simulados)</h2>
+            <img src="https://simplemaps.com/static/svg/country/br/admin1/br.svg" alt="Mapa do Brasil" id="brazil-map">
+            <div id="regions-overlay"></div>
+        </div>
+
+        <div id="region-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h3 id="modal-region-name"></h3>
+                <p><strong>Tipo de Evento:</strong> <span id="modal-event-type"></span></p>
+                <p><strong>Probabilidade:</strong> <span id="modal-probability"></span></p>
+                <p><strong>Último Evento:</strong> <span id="modal-last-event"></span></p>
+                <a href="prevencao.html" id="modal-prevention-link" class="button">Saiba como prevenir e agir</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ReaGeo. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
